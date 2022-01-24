@@ -14,7 +14,7 @@ from .forms import AddressForm, CouponForm
 import stripe
 import json
 
-stripe.api_key = "sk_test_51KH4Y4SCMctk5zu7itRZMw3n2RxzN8VfLIqjBp3436l9FQ7tz8G56OoJmraAsZRn23sBmeXv2DuEpuNtp2UeOWd100PtSTD3Xf"
+stripe.api_key = ""
 
 
 class HomeView(ListView):
